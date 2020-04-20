@@ -5,6 +5,11 @@
     <key>en</key>
     <value>Kafka message service</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Kafka message service</value>
+  </synonym>
+  <comment>Менеджер очередей сообщений Apache Kafka</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="544cd684-f096-48af-adff-8905697761a9"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c06d0756-0466-42ad-aaa8-c70bc17488a1"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f906980f-db5c-41ac-95bb-67802b46b78c"/>
