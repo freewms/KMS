@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae05265b-f227-4eeb-ba93-56425dde65cb">
+  <name>ОчередиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очереди сообщений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.осЛоготип</picture>
+  </picture>
+  <content>Constant.осСервер</content>
+  <content>baf65628-4455-4f86-99fe-a3b9ab58d9c6</content>
+  <content>Enum.осВнешниеМетодыОбменаСообщениями</content>
+  <content>Enum.осРежимыПодтвержденияСообщений</content>
+  <content>Enum.осРежимыОбработкиОшибкиСмещения</content>
+  <content>Catalog.осШаблоныФильтров</content>
+  <content>Catalog.осПравилаОбработки</content>
+  <content>Catalog.осОчередиСообщений</content>
+  <content>InformationRegister.осБлокировкаПовторныхДействий</content>
+  <content>Enum.осРежимыОбработки</content>
+  <content>Catalog.осШаблоныДействий</content>
+  <content>Report.осИспользованиеШаблонов</content>
+  <content>InformationRegister.осСостояниеТранзакций</content>
+  <content>InformationRegister.Лог</content>
+  <content>InformationRegister.ТекстЛог</content>
+  <content>DataProcessor.осОтладка</content>
+  <content>InformationRegister.осДанныеТранзакции</content>
+  <content>ScheduledJob.осОбработатьОчередиСообщений</content>
+  <content>ScheduledJob.осРегламентныеОперации</content>
+  <content>CommonForm.осНастройкаСоединение</content>
+  <content>Role.осПользовательОчередиСообщений</content>
+  <content>Role.осАдминистраторОчередейСообщений</content>
+  <content>CommonModule.осОчередиСообщенийСервер</content>
+  <content>CommonModule.осОчередиСообщенийВызовСервера</content>
+  <content>CommonModule.осОчередиСообщенийСерверПовтИсп</content>
+  <content>CommonModule.осОчередиСообщенийСерверПереопределяемый</content>
+  <content>CommonModule.осОтладкаСервер</content>
+  <content>Enum.осТипыФильтров</content>
+  <content>Enum.осТипыДействий</content>
+  <content>Enum.осТипыДанных</content>
+  <content>Enum.осСостоянияТранзакций</content>
+  <content>Constant.осПорт</content>
+  <content>Constant.осПользователь</content>
+  <content>Constant.осПароль</content>
+  <content>Constant.осТаймаут</content>
+</mdclass:Subsystem>

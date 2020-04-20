@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f43721-5b18-4bba-9ef2-230723591f1e">
+  <producedTypes>
+    <managerType typeId="64d1a085-e9a0-4745-b430-8feeb62b4a9c" valueTypeId="a3998f34-1980-42cb-a29c-0b67c0ad982b"/>
+    <valueManagerType typeId="a2c8ec29-bbca-417d-b2e9-500413a46daa" valueTypeId="1ee25abb-3b2c-4f9d-9e2e-324abd3739f0"/>
+    <valueKeyType typeId="f188465b-5e8a-55fd-8b1c-9a8bf0ba2ebc" valueTypeId="d178174b-f6a6-5186-98ad-10e99d65e51b"/>
+  </producedTypes>
+  <name>осПользователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.осНастройкаСоединение</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

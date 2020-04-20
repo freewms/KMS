@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49d68be3-1c4a-4e72-842f-33ac312ffd1b">
+  <producedTypes>
+    <selectionType typeId="fd9d402a-f26f-4908-949e-5bb38031ec9c" valueTypeId="a3a70657-b89a-459c-9307-17f7f1e4697a"/>
+    <listType typeId="63b3c42c-cb91-466d-b3af-0551b9d13a23" valueTypeId="442a7058-4b1e-46c4-991a-968a5bc7974e"/>
+    <managerType typeId="001e39ec-83d7-4ecc-91b9-10b556ba5524" valueTypeId="06eba5f2-ef08-4e2d-b992-005d11734c1f"/>
+    <recordSetType typeId="288d5774-e8d2-4f19-8dca-062efa91cfca" valueTypeId="81f4d88c-696e-4071-86bd-c486b177f235"/>
+    <recordKeyType typeId="6c8ffd5a-b4af-477f-ab6e-4ca8207c8ced" valueTypeId="89dc195d-794d-4ea9-8f6e-0dcc8a771756"/>
+    <recordType typeId="85199c0e-e934-4545-8de9-566c9a89b291" valueTypeId="3491a274-7293-4d8e-bc77-41919b9b6c12"/>
+    <recordManagerType typeId="b2325dfd-81de-4b9f-97cd-112c1b2a0328" valueTypeId="08db1cee-4cc1-4e59-b3af-40ae2ac58541"/>
+  </producedTypes>
+  <name>осДанныеТранзакции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очереди сообщений данные транзакции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.осДанныеТранзакции.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.осДанныеТранзакции.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70ae683e-f515-418a-8ef2-02e0776440b9">
+    <name>ТипШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип шага</value>
+    </synonym>
+    <type>
+      <types>EnumRef.осТипыДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d2d9ed7-586d-4135-b1bc-326276200b6b">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1c03e37e-2c91-4037-8d78-3d8fc04241bd">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ab717709-96df-421e-b21e-52e69b3b811a">
+    <name>Подписчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписчик</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>55</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d49dd34f-5153-4698-ad8b-223cfcc8b448">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfa5f9cf-a763-416e-87b6-ef778c0a0182">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
