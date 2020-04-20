@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af5e5bb-7d2c-445c-9a0d-81b98e480f4c">
+  <producedTypes>
+    <refType typeId="86aabd85-77ac-4622-be33-e2f17c6ad644" valueTypeId="cf2c2b19-0b10-418c-b1a9-96c3a8bed11b"/>
+    <listType typeId="31724aa5-84aa-4817-ad57-756f13e3e37b" valueTypeId="7ddad48b-3f90-4a89-865e-5d8c45cb8437"/>
+    <managerType typeId="3ab96f5f-7475-46a6-b560-63e967b89f28" valueTypeId="8ac443a1-9012-467c-8fef-52400591138d"/>
+  </producedTypes>
+  <name>осСостоянияТранзакций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ос состояния транзакций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dad7772a-9173-4b54-8bb5-d8b40b40c601">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65d53477-b19c-4d5e-b7bc-d7e3325c5c2b">
+    <name>НеАктивна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d842591b-afeb-4611-b536-cda6f8321a06">
+    <name>НеОпределена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

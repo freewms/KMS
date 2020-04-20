@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19d345b4-8749-49b5-8dc4-2e856b7ff8fe">
+  <producedTypes>
+    <refType typeId="9ef6b3bf-62bf-43cc-a2d6-0faf9d90bba7" valueTypeId="c25e7268-226e-43b8-b54b-5fda2e176a91"/>
+    <listType typeId="7951fe58-faab-4642-893f-f7004e98e788" valueTypeId="d268c158-7cce-4cf2-a7cc-3c9a7970906a"/>
+    <managerType typeId="f45a873a-b9b5-4af7-8d5a-66a963e6e963" valueTypeId="86ea27c3-5791-4cf3-87ea-156bb6d6df37"/>
+  </producedTypes>
+  <name>осРежимыОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы использования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9b3feb10-31c0-4b62-a90c-961d334e0963">
+    <name>Фильтрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aaa233b-aeeb-4c2c-a45a-765b9d405922">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

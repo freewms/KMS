@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a609ec-4953-4e9d-a7cb-2e0bb89a4bec">
+  <producedTypes>
+    <refType typeId="d8b996ec-59f0-490d-8ae2-ac553ae689ab" valueTypeId="d1e90518-0648-4c0b-9b27-530f9254f604"/>
+    <listType typeId="46b979ca-502a-4e78-82d7-b4da4eb75bc4" valueTypeId="2f2c8c1e-88a9-49aa-bfac-883f35f82b42"/>
+    <managerType typeId="875f524c-b462-4945-9ee7-152c2ba30252" valueTypeId="14198cd4-f969-4ff1-9a0e-248bee006cf6"/>
+  </producedTypes>
+  <name>осТипыФильтров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы правил фильтрации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f8315dc-08de-4b52-a4fb-990180f9fd38">
+    <name>СКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a09d5fd-1761-4587-9b67-b56ba41b6a41">
+    <name>ПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный код</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea540b38-289c-431b-8e06-aaf44f466d93">
+    <name>НеФильтровать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не фильтровать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

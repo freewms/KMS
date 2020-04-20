@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="758ca2b0-136b-4341-a33f-dc8001e46268">
+  <name>KMS</name>
+  <synonym>
+    <key>en</key>
+    <value>Kafka message service</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="544cd684-f096-48af-adff-8905697761a9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c06d0756-0466-42ad-aaa8-c70bc17488a1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f906980f-db5c-41ac-95bb-67802b46b78c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="88fc2e1d-40ee-4b1d-bb46-bebed7dfa007"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1e7215bf-b058-44fb-89aa-230715c7854a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="38787707-2237-4cac-b965-d26286c4617c"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>freewms.ru</vendor>
+  <version>0.9.5</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="84205bb1-fb60-41be-b0ec-633580da7648">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОчередиСообщений</subsystems>
+  <commonPictures>CommonPicture.осЛоготип</commonPictures>
+  <commonPictures>CommonPicture.осКоллекцияОшибкаУспех</commonPictures>
+  <roles>Role.осАдминистраторОчередейСообщений</roles>
+  <roles>Role.осПользовательОчередиСообщений</roles>
+  <commonModules>CommonModule.осОчередиСообщенийСервер</commonModules>
+  <commonModules>CommonModule.осОчередиСообщенийВызовСервера</commonModules>
+  <commonModules>CommonModule.осОчередиСообщенийСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.осОчередиСообщенийСерверПереопределяемый</commonModules>
+  <commonModules>CommonModule.осОтладкаСервер</commonModules>
+  <scheduledJobs>ScheduledJob.осОбработатьОчередиСообщений</scheduledJobs>
+  <scheduledJobs>ScheduledJob.осРегламентныеОперации</scheduledJobs>
+  <constants>Constant.осСервер</constants>
+  <constants>Constant.осПорт</constants>
+  <constants>Constant.осПользователь</constants>
+  <constants>Constant.осПароль</constants>
+  <constants>Constant.осТаймаут</constants>
+  <commonForms>CommonForm.осНастройкаСоединение</commonForms>
+  <catalogs>Catalog.осОчередиСообщений</catalogs>
+  <catalogs>Catalog.осПравилаОбработки</catalogs>
+  <catalogs>Catalog.осШаблоныДействий</catalogs>
+  <catalogs>Catalog.осШаблоныФильтров</catalogs>
+  <enums>Enum.осВнешниеМетодыОбменаСообщениями</enums>
+  <enums>Enum.осРежимыПодтвержденияСообщений</enums>
+  <enums>Enum.осРежимыОбработкиОшибкиСмещения</enums>
+  <enums>Enum.осТипыФильтров</enums>
+  <enums>Enum.осРежимыОбработки</enums>
+  <enums>Enum.осТипыДействий</enums>
+  <enums>Enum.осТипыДанных</enums>
+  <enums>Enum.осСостоянияТранзакций</enums>
+  <reports>Report.осИспользованиеШаблонов</reports>
+  <dataProcessors>DataProcessor.осОтладка</dataProcessors>
+  <informationRegisters>InformationRegister.осБлокировкаПовторныхДействий</informationRegisters>
+  <informationRegisters>InformationRegister.осСостояниеТранзакций</informationRegisters>
+  <informationRegisters>InformationRegister.осДанныеТранзакции</informationRegisters>
+  <informationRegisters>InformationRegister.Лог</informationRegisters>
+  <informationRegisters>InformationRegister.ТекстЛог</informationRegisters>
+</mdclass:Configuration>

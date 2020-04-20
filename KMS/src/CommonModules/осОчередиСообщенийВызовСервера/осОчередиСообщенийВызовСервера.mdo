@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="802ec467-4967-4e42-8769-f2160a8ac0fa">
+  <name>осОчередиСообщенийВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ос очереди сообщений вызов сервера</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
