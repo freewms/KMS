@@ -18,7 +18,6 @@
   <content>Catalog.осШаблоныФильтров</content>
   <content>Catalog.осПравилаОбработки</content>
   <content>Catalog.осОчередиСообщений</content>
-  <content>InformationRegister.осБлокировкаПовторныхДействий</content>
   <content>Enum.осРежимыОбработки</content>
   <content>Catalog.осШаблоныДействий</content>
   <content>Report.осИспользованиеШаблонов</content>
@@ -31,7 +30,7 @@
   <content>ScheduledJob.осРегламентныеОперации</content>
   <content>CommonForm.осНастройкаСоединение</content>
   <content>Role.осПользовательОчередиСообщений</content>
-  <content>Role.осАдминистраторОчередейСообщений</content>
+  <content>Role.осАдминистраторОчередиСообщений</content>
   <content>CommonModule.осОчередиСообщенийСервер</content>
   <content>CommonModule.осОчередиСообщенийВызовСервера</content>
   <content>CommonModule.осОчередиСообщенийСерверПовтИсп</content>

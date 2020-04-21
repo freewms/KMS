@@ -20,12 +20,21 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>freewms.ru</vendor>
-  <version>0.9.5</version>
+  <vendor>http://defbyte.ru</vendor>
+  <version>0.9.6</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/freewms</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/freewms/KMS</value>
+  </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="84205bb1-fb60-41be-b0ec-633580da7648">
@@ -39,7 +48,7 @@
   <subsystems>Subsystem.ОчередиСообщений</subsystems>
   <commonPictures>CommonPicture.осЛоготип</commonPictures>
   <commonPictures>CommonPicture.осКоллекцияОшибкаУспех</commonPictures>
-  <roles>Role.осАдминистраторОчередейСообщений</roles>
+  <roles>Role.осАдминистраторОчередиСообщений</roles>
   <roles>Role.осПользовательОчередиСообщений</roles>
   <commonModules>CommonModule.осОчередиСообщенийСервер</commonModules>
   <commonModules>CommonModule.осОчередиСообщенийВызовСервера</commonModules>
@@ -68,7 +77,6 @@
   <enums>Enum.осСостоянияТранзакций</enums>
   <reports>Report.осИспользованиеШаблонов</reports>
   <dataProcessors>DataProcessor.осОтладка</dataProcessors>
-  <informationRegisters>InformationRegister.осБлокировкаПовторныхДействий</informationRegisters>
   <informationRegisters>InformationRegister.осСостояниеТранзакций</informationRegisters>
   <informationRegisters>InformationRegister.осДанныеТранзакции</informationRegisters>
   <informationRegisters>InformationRegister.Лог</informationRegisters>

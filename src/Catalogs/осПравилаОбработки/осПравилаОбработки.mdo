@@ -207,21 +207,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e18e4fae-21a8-4d55-abab-aa27d12a05e7">
-    <name>ОднократноеВыполнение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Однократное выполнение</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="519861a7-605a-4f5b-b480-3f92db78611f">
     <name>ФормаЭлемента</name>
     <synonym>

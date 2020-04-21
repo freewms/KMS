@@ -41,7 +41,6 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>InformationRegister.осБлокировкаПовторныхДействий.StandardCommand.OpenList</commands>
       <commands>Catalog.осОчередиСообщений.StandardCommand.OpenList</commands>
       <commands>Catalog.осШаблоныФильтров.StandardCommand.OpenList</commands>
       <commands>Catalog.осШаблоныДействий.StandardCommand.OpenList</commands>
