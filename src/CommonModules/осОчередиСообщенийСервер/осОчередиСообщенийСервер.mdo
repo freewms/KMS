@@ -3,7 +3,7 @@
   <name>осОчередиСообщенийСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Ос очереди сообщений сервер</value>
+    <value>Очереди сообщений сервер</value>
   </synonym>
   <server>true</server>
 </mdclass:CommonModule>
