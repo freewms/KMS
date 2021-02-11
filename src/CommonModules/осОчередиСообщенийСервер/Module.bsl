@@ -707,6 +707,8 @@
 		АдресРесурса = "";
 		
 		Заголовки = Новый Соответствие;
+		Заголовки.Вставить("Accept", "application/vnd.kafka.v2+json");
+		Заголовки.Вставить("Content-Type", "application/vnd.kafka.v2+json");
 		
 		ТелоСообщения = "";
 		
@@ -718,6 +720,7 @@
 		
 		Заголовки = Новый Соответствие;
 		Заголовки.Вставить("Accept", "application/vnd.kafka.v2+json");
+		Заголовки.Вставить("Content-Type", "application/vnd.kafka.v2+json");
 		
 		ТелоСообщения = "";
 		
@@ -730,6 +733,7 @@
 		
 		Заголовки = Новый Соответствие;
 		Заголовки.Вставить("Accept", "application/vnd.kafka.v2+json");
+		Заголовки.Вставить("Content-Type", "application/vnd.kafka.v2+json");
 		
 		ТелоСообщения = "";
 		
@@ -1005,6 +1009,7 @@
 		
 		Заголовки = Новый Соответствие;
 		Заголовки.Вставить("Accept", "application/vnd.kafka.json.v2+json");
+		Заголовки.Вставить("Content-Type", "application/vnd.kafka.v2+json"); 
 		
 		ТелоСообщения = "";	
 		
