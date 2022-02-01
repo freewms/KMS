@@ -6,4 +6,6 @@
     <value>Ос очереди сообщений сервер повт исп</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

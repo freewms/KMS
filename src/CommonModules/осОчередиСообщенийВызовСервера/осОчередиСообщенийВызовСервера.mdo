@@ -6,4 +6,5 @@
     <value>Ос очереди сообщений вызов сервера</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>

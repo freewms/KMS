@@ -23,15 +23,7 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://defbyte.ru</vendor>
   <version>0.9.7</version>
-  <usedMobileApplicationFunctionalities>
-    <functionality>
-      <use>true</use>
-    </functionality>
-    <functionality>
-      <functionality>OSBackup</functionality>
-      <use>true</use>
-    </functionality>
-  </usedMobileApplicationFunctionalities>
+  <usedMobileApplicationFunctionalities/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <vendorInformationAddress>
     <key>ru</key>
