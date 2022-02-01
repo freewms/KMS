@@ -8,7 +8,7 @@
       <id>1</id>
       <title>
         <key>ru</key>
-        <value>Имя очереди</value>
+        <value>Topic</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -66,7 +66,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.РазмерПачки</segments>
+        <segments>Объект.РазмерПачкиЧтения</segments>
       </dataPath>
       <extendedTooltip>
         <name>РазмерПачкиЧтенияРасширеннаяПодсказка</name>

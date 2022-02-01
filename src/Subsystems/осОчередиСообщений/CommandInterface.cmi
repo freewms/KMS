@@ -27,21 +27,46 @@
       <command>Constant.осТаймаут.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.осСостояниеТранзакций.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.Лог.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.осДанныеТранзакции.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ТекстЛог.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.осИспользованиеШаблонов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.осНастройкаСоединение.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Catalog.осПравилаОбработки.StandardCommand.OpenList</commands>
+      <commands>Catalog.осОчередиСообщений.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Catalog.осПравилаОбработки.StandardCommand.OpenList</commands>
+      <commands>Catalog.осОчередиСообщений.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.осОчередиСообщений.StandardCommand.OpenList</commands>
       <commands>Catalog.осШаблоныДействий.StandardCommand.OpenList</commands>
       <commands>0:baf65628-4455-4f86-99fe-a3b9ab58d9c6</commands>
       <commands>InformationRegister.осСостояниеТранзакций.StandardCommand.OpenList</commands>

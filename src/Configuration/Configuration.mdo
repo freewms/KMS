@@ -47,7 +47,15 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ОчередиСообщений</subsystems>
+  <languages uuid="68281f76-3018-4ffd-b072-c13527216eab">
+    <name>English</name>
+    <synonym>
+      <key>ru</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.осОчередиСообщений</subsystems>
   <commonPictures>CommonPicture.осЛоготип</commonPictures>
   <commonPictures>CommonPicture.осКоллекцияОшибкаУспех</commonPictures>
   <roles>Role.осАдминистраторОчередиСообщений</roles>

@@ -108,10 +108,10 @@
   <defaultObjectForm>Catalog.осОчередиСообщений.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.осОчередиСообщений.Form.ФормаСписка</defaultListForm>
   <attributes uuid="76b64fc6-d49e-4887-a9fc-24a22ff292f2">
-    <name>РазмерПачки</name>
+    <name>РазмерПачкиЧтения</name>
     <synonym>
       <key>ru</key>
-      <value>Размер пачки</value>
+      <value>Размер пачки чтения</value>
     </synonym>
     <type>
       <types>Number</types>

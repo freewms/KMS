@@ -17,7 +17,6 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.осДанныеТранзакции.Form.ФормаЗаписи</defaultRecordForm>
-  <defaultListForm>InformationRegister.осДанныеТранзакции.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="70ae683e-f515-418a-8ef2-02e0776440b9">
     <name>ТипШага</name>
@@ -87,15 +86,6 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="d49dd34f-5153-4698-ad8b-223cfcc8b448">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="dfa5f9cf-a763-416e-87b6-ef778c0a0182">
     <name>ФормаЗаписи</name>
     <synonym>

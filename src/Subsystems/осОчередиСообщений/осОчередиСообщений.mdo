@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae05265b-f227-4eeb-ba93-56425dde65cb">
-  <name>ОчередиСообщений</name>
+  <name>осОчередиСообщений</name>
   <synonym>
     <key>ru</key>
     <value>Очереди сообщений</value>
