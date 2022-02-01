@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.осСервер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.осСервер</segments>
       </dataPath>
       <extendedTooltip>
         <name>осСерверРасширеннаяПодсказка</name>
@@ -63,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.осПорт</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.осПорт</segments>
       </dataPath>
       <extendedTooltip>
         <name>осПортРасширеннаяПодсказка</name>
@@ -119,10 +115,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.осТаймаут</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.осТаймаут</segments>
       </dataPath>
       <extendedTooltip>
         <name>осТаймаутРасширеннаяПодсказка</name>
@@ -211,10 +205,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.осПользователь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.осПользователь</segments>
       </dataPath>
       <extendedTooltip>
         <name>осПользовательРасширеннаяПодсказка</name>
@@ -263,10 +255,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборКонстант.осПароль</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборКонстант.осПароль</segments>
       </dataPath>
       <extendedTooltip>
         <name>осПарольРасширеннаяПодсказка</name>

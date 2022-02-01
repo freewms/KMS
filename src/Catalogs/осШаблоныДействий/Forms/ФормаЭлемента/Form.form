@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Code</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодРасширеннаяПодсказка</name>
@@ -63,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Тип</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Тип</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипРасширеннаяПодсказка</name>
@@ -153,10 +149,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -204,10 +198,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Метод</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Метод</segments>
     </dataPath>
     <extendedTooltip>
       <name>МетодРасширеннаяПодсказка</name>
@@ -361,10 +353,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаПараметров.Обязательный</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТаблицаПараметров.Обязательный</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТаблицаПараметровОбязательныйРасширеннаяПодсказка</name>
@@ -406,10 +396,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаПараметров.Представление</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТаблицаПараметров.Представление</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТаблицаПараметровПредставлениеРасширеннаяПодсказка</name>
@@ -458,10 +446,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаПараметров.Тип</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТаблицаПараметров.Тип</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТаблицаПараметровТипРасширеннаяПодсказка</name>

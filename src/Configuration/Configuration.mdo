@@ -16,12 +16,22 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="88fc2e1d-40ee-4b1d-bb46-bebed7dfa007"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1e7215bf-b058-44fb-89aa-230715c7854a"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="38787707-2237-4cac-b965-d26286c4617c"/>
-  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ee59f8f4-3f39-4381-9119-1498b0ef46b0"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://defbyte.ru</vendor>
-  <version>0.9.6</version>
+  <version>0.9.7</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <vendorInformationAddress>
     <key>ru</key>
@@ -36,7 +46,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.14</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="84205bb1-fb60-41be-b0ec-633580da7648">
     <name>Русский</name>
     <synonym>

@@ -655,14 +655,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <activeLanguage>1</activeLanguage>
-          <paths xsi:type="form:DataPath">
-            <segments>СписокСообщений.Value</segments>
-          </paths>
-          <paths xsi:type="form:DataPath">
-            <segments>СписокСообщений.Значение</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокСообщений.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокСообщенийЗначениеРасширеннаяПодсказка</name>

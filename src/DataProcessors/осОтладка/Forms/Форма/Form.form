@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОчередьГенерации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОчередьГенерации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОчередьГенерацииРасширеннаяПодсказка</name>
@@ -79,10 +77,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоПотоковГенерации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоПотоковГенерации</segments>
       </dataPath>
       <extendedTooltip>
         <name>КоличествоПотоковГенерацииРасширеннаяПодсказка</name>
@@ -139,10 +135,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоСообщенийГенерации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоСообщенийГенерации</segments>
       </dataPath>
       <extendedTooltip>
         <name>КоличествоСообщенийГенерацииРасширеннаяПодсказка</name>
