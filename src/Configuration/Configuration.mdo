@@ -68,7 +68,6 @@
   <catalogs>Catalog.осОчередиСообщений</catalogs>
   <catalogs>Catalog.осПравилаОбработки</catalogs>
   <catalogs>Catalog.осШаблоныДействий</catalogs>
-  <catalogs>Catalog.осШаблоныФильтров</catalogs>
   <enums>Enum.осВнешниеМетодыОбменаСообщениями</enums>
   <enums>Enum.осРежимыПодтвержденияСообщений</enums>
   <enums>Enum.осРежимыОбработкиОшибкиСмещения</enums>

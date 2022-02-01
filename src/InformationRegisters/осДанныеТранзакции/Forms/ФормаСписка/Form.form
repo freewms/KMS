@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Данные текущих транзакций</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -39,8 +43,12 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>Список</name>
+    <name>СписокДанных</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Список данных транзакции</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -54,6 +62,10 @@
     <items xsi:type="form:FormField">
       <name>Подписчик</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Подписчик</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -101,6 +113,10 @@
     <items xsi:type="form:FormField">
       <name>ТипШага</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Тип шага</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -148,6 +164,10 @@
     <items xsi:type="form:FormField">
       <name>Данные</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Данные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -192,56 +212,9 @@
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
-    <items xsi:type="form:FormField">
-      <name>ОписаниеОшибки</name>
-      <id>25</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ОписаниеОшибки</segments>
-      </dataPath>
-      <defaultItem>true</defaultItem>
-      <extendedTooltip>
-        <name>ОписаниеОшибкиРасширеннаяПодсказка</name>
-        <id>27</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ОписаниеОшибкиКонтекстноеМеню</name>
-        <id>26</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
-      <name>СписокКоманднаяПанель</name>
+      <name>СписокДанныхКоманднаяПанель</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -256,10 +229,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокСтрокаПоиска</name>
+      <name>СписокДанныхСтрокаПоиска</name>
       <id>7</id>
       <extendedTooltip>
-        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>СписокДанныхСтрокаПоискаРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -274,7 +247,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокСтрокаПоискаКонтекстноеМеню</name>
+        <name>СписокДанныхСтрокаПоискаКонтекстноеМеню</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -293,10 +266,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокСостояниеПросмотра</name>
+      <name>СписокДанныхСостояниеПросмотра</name>
       <id>10</id>
       <extendedTooltip>
-        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>СписокДанныхСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -311,7 +284,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
+        <name>СписокДанныхСостояниеПросмотраКонтекстноеМеню</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -332,10 +305,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокУправлениеПоиском</name>
+      <name>СписокДанныхУправлениеПоиском</name>
       <id>13</id>
       <extendedTooltip>
-        <name>СписокУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>СписокДанныхУправлениеПоискомРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -350,7 +323,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокУправлениеПоискомКонтекстноеМеню</name>
+        <name>СписокДанныхУправлениеПоискомКонтекстноеМеню</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -365,7 +338,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокРасширеннаяПодсказка</name>
+      <name>СписокДанныхРасширеннаяПодсказка</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -380,7 +353,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СписокКонтекстноеМеню</name>
+      <name>СписокДанныхКонтекстноеМеню</name>
       <id>4</id>
       <visible>true</visible>
       <enabled>true</enabled>

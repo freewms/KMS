@@ -6,7 +6,6 @@
     <value>Очереди сообщений: обработка очередей</value>
   </synonym>
   <methodName>CommonModule.осОчередиСообщенийСервер.ОбработатьОчередиСообщений</methodName>
-  <description>Обработать очереди сообщений</description>
   <key>осОчередиСообщенийСервер.ОбработатьОчередиСообщений</key>
   <use>true</use>
   <predefined>true</predefined>

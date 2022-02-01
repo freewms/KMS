@@ -42,7 +42,6 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.осОчередиСообщений.StandardCommand.OpenList</commands>
-      <commands>Catalog.осШаблоныФильтров.StandardCommand.OpenList</commands>
       <commands>Catalog.осШаблоныДействий.StandardCommand.OpenList</commands>
       <commands>0:baf65628-4455-4f86-99fe-a3b9ab58d9c6</commands>
       <commands>InformationRegister.осСостояниеТранзакций.StandardCommand.OpenList</commands>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаШапка</name>
     <id>58</id>
@@ -245,16 +245,8 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>FillCheckProcessingAtServer</event>
-    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
@@ -280,31 +272,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <formCommands>
-    <name>ДобавитьПравилоФильтрации</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить правило фильтрации</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.CreateListItem</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ДобавитьПравилоФильтрации</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <parameters>
     <name>ЗаданныйТипОчереди</name>
     <valueType>
@@ -315,10 +282,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo">
-    <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

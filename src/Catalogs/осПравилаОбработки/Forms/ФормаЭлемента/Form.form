@@ -200,10 +200,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Очередь</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ОчередьСобытийПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ОчередьСобытийРасширеннаяПодсказка</name>
         <id>12</id>
